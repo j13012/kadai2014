@@ -12,9 +12,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final int DATABASE_VERSION = 2;
     private static final String TABLE_NAME = "history";
     private static final String ID = "id";
-    private static final String CREATED = "日付";
-    private static final String LATITUDE = "緯度";
-    private static final String LONGITUDE = "経度";
+    private static final String CREATED = "date";
+    private static final String LATITUDE = "latitude";
+    private static final String LONGITUDE = "longitude";
 
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
